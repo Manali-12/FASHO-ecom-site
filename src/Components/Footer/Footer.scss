@@ -1,0 +1,90 @@
+.footer-div{
+    width: 100vw;
+    background-color: rgb(26, 22, 22);
+    
+    .footer-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 30px;
+        .footer-left-wrap{
+            color: white;
+            flex: 1;
+            margin: 15px;
+            h1{
+                font-size: 50px;
+            }
+            h6{
+                font-size: 16px;
+                font-weight: 200;
+                letter-spacing: 1px;
+                margin: 10px 0;
+            }
+            .footer-socio-icons{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 20px 0;
+                .footer-icon{
+                    color: white;
+                    font-size: 30px;
+                    padding: 10px;
+                    border-radius: 50%;
+                    margin: 0 5px;
+                }
+            }
+        }
+        .footer-center-wrap{
+            flex: 1;
+            color: white;
+            margin: 0 25px;
+            h2{
+                font-size: 25px;
+                margin: 20px 0 ;
+                width: 100%;
+            }
+            .footer-lists{
+                display: flex;
+                flex-direction: row;
+            ul{
+                padding: 0;
+                margin: 0 0 0 20px;
+                list-style: none;
+                li{
+                    font-size: 20px;
+                    margin: 10px 18px;
+                }
+            }}
+        }
+        .footer-right-wrap{
+            flex: 1;
+            color: white;
+            
+            h2{
+                font-size: 25px;
+                margin: 20px 0;
+            }
+            .footer-contact-list{
+
+                .footer-contact{
+                    display: flex;
+                    flex-direction: row;
+                    h6{
+                        font-size: 20px;
+                        font-weight: 400;
+                        letter-spacing: 1px;
+                        word-spacing: 1.5px;
+                        margin:  0 0 20px 10px;
+                    }
+                    
+                }
+                img{
+                    
+                    width: 30%;
+                }
+            }
+        }
+    }
+}

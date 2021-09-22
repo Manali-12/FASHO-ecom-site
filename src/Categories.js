@@ -1,6 +1,6 @@
 import ct1 from "../src/Images/ct1.jpg"
-import ct2 from "../src/Images/ct1.jpg"
-import ct3 from "../src/Images/ct3.jpg"
+import ct2 from "../src/Images/ct3.jpg"
+import ct3 from "../src/Images/ct4.jpg"
 
 
 const cate = [
