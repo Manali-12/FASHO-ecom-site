@@ -1,0 +1,19 @@
+.notfound-div{
+    margin-top: 15px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#c3eeffb3, rgba(215, 238, 115, 0.7));
+    h1{
+        font-size: 200px;
+        color: rgb(182, 112, 86);
+    }
+    h2{
+        font-size: 100px;
+        color: rgb(173, 173, 255);
+    }
+    
+}
