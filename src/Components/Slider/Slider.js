@@ -3,6 +3,7 @@ import "../Slider/Slider.scss"
 import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import slideInfo from "../../SlideInfo"
+import Products from '../Products/Products';
 
 export default function Slider() {
     const [index, setindex] = useState(0);

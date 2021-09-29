@@ -3,13 +3,13 @@ import "../Product/Product.scss"
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutlined';
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
-
+import { Link } from "react-router-dom"
 
 export default function Product({ item }) {
     return (
         <div className="product-wrap">
             <div className="product-image-wrap">
-                <img src={item.src} />
+                <img src={item.image} />
 
                 <div className="product-circle"></div>
 
@@ -19,7 +19,7 @@ export default function Product({ item }) {
                     <ShoppingCartOutlinedIcon className="icon" />
                 </div>
                 <div className="product-icon">
-                    <SearchOutlinedIcon className="icon" />
+                    <Link to={`/products/${item.id}`}><SearchOutlinedIcon className="icon" /></Link>
                 </div>
                 <div className="product-icon">
                     <FavoriteBorderOutlinedIcon className="icon" />
