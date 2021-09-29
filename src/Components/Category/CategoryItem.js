@@ -10,7 +10,7 @@ export default function CategoryItem({ item }) {
                 </div>
                 <div className="cate-card-title">
                     <h2>{item.title}</h2>
-                    <button><a href="#list">SHOP NOW</a></button>
+                    <button><a href="/products/15">SHOP NOW</a></button>
                 </div>
             </div>
         </div>
