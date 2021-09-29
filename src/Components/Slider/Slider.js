@@ -44,7 +44,7 @@ export default function Slider() {
                                     <div className="discription">
                                         <p>{item.disc}</p>
                                     </div>
-                                    <button>SHOP NOW</button></div>
+                                    <button><a href="/products/17">SHOP NOW</a></button></div>
                             </div>
                         </div>
                     </div>
