@@ -10,8 +10,8 @@ import Footer from '../../Components/Footer/Footer';
 const HomePage = () => {
     return (
         <div>
-            {/* <Announcement /> */}
-            {/* <Navbar /> */}
+            <Announcement />
+            <Navbar />
             <Slider />
             <Category />
             <Products />

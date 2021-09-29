@@ -19,7 +19,7 @@ export default function Navbar() {
                     </div>
                 </div> */}
                 <div className="middle-wrap">
-                    <h1>FASHO</h1>
+                    <h1><a href="/homepage">FASHO</a></h1>
                 </div>
                 {/* <div className="right-wrap">
                     <h6>REGISTER</h6>

@@ -15,7 +15,11 @@ export default function SignUp() {
                 <input placeholder="Password" type="password" />
                 <input placeholder="Confirm Password" type="password" />
                 <button>SIGN UP</button>
-                <button>Demo Sign Up</button>
+                <button><a href="/homepage">Demo Sign Up</a></button>
+                <div className="login-user">
+                    <h6>Already have an account?</h6>
+                    <a href="/">Login here</a>
+                </div>
             </div>
         </div>
     )

@@ -34,6 +34,17 @@
             padding: 10px ;
             cursor: pointer;
         }
+        .login-user{
+            display: flex;
+            font-size: 25px;
+
+            a{
+                color: blue;
+                font-size: 15px;
+                padding: 3px;
+
+            }
+        }
     }
     
 }
