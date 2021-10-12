@@ -5,16 +5,26 @@
     text-align: center;
     border: 2px solid white;
     border-radius: 25px;
+    @media only screen and (max-width:480px){
+       width: 80%;
+    }
     .signin-wrap{
         background-color: white;
-        margin: 5px;
-        padding: 55px;
+        margin:5px;
+        padding: 45px;
         border-radius: 25px;
-
+        @media only screen and (max-width:480px){
+            padding: 25px;
+            margin: 8px;
+            width: 80%;
+        }
         h3{
             font-size: 40px;
-            margin-bottom: 30px;
+            margin-bottom: 3%;
             font-weight: 600;
+            @media only screen and (max-width:480px){
+                font-size: 30px;
+            }
         }
         .signin-input{
             display: flex;
@@ -28,6 +38,9 @@
                 width: 350px;
                 margin: 10px 0;
                 color: gray;
+                @media only screen and (max-width:480px){
+                   width: 80%;
+                }
             }
             button{
                 color:white;

@@ -4,6 +4,9 @@
     display: flex;
     overflow: hidden;
     margin-top: 15px;
+    @media only screen and (max-width:480px){
+       height: 90vh;
+    }
     .slider-wrap{
         display: flex;
         width: 100vw;
@@ -26,12 +29,18 @@
             .arrow{
                 font-size: 30px;
             }
+            @media only screen and (max-width:480px){
+                background-color: lightblue;
+            }
         }
         .l-arrow{
 
         }
         .r-arrow{
             margin-left: 95vw;
+            @media only screen and (max-width:480px){
+                margin-left: 88vw;
+            }
         }
         .slide-wrap{
             display: flex;
@@ -48,6 +57,9 @@
                     height: 100%;
                     justify-content: flex-end;
                     overflow: hidden;
+                    @media only screen and (max-width:480px){
+                        display: none;
+                    }
                     img{
                         width:100%;
                        height:auto;
@@ -60,6 +72,9 @@
                     flex: 1;
                     align-items: center;
                     padding: 0 7% 0 0 ;
+                    @media only screen and (max-width:480px){
+                        width: 100%;  
+                        padding: 0 5% 0 10%;                  }
                     .info{
                         margin: 25% 30px ;
                         .heading{
@@ -68,6 +83,9 @@
                             font-weight: 500;
                             padding: 40px 0;
                             letter-spacing: 2.5px;
+                            @media only screen and (max-width:480px){
+                                font-size: 60px;
+                            }
                         }
                         .discription{
                             font-size: 25px;

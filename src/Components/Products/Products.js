@@ -24,7 +24,7 @@ export default function Products() {
     const products = useSelector(state => state.allProducts.products)
     console.log(products)
     return (
-        <div className="products-div">
+        <div className="products-div" id="productsdiv">
             {products.map((item) =>
                 <Product item={item} />
             )}
