@@ -6,4 +6,8 @@
     justify-content: space-around;
     align-items: center;
     margin: 30px 0;
+    @media only screen and (max-width:480px){
+        flex-direction: column;
+        background-color: lavender;
+    }
 }

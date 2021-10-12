@@ -6,6 +6,10 @@
         align-items: center;
         width: 100vw;
         height: 100vh;
+        @media only screen and (max-width:480px){
+            flex-direction: column;
+            height: auto;
+        }
         .product-wrap{
             display: flex;
             justify-content: center;
@@ -17,6 +21,9 @@
                 height: 70%;
                 padding:20px;
                 object-fit: cover;
+                @media only screen and (max-width:480px){
+                    width: 70%;
+                }
             }
         }
         .details-wrap{

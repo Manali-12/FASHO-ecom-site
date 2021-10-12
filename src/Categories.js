@@ -7,17 +7,17 @@ const cate = [
     {
         id: 1,
         src: ct1,
-        title: "SHIRT STYLE"
+        title: "JACKET STYLE"
     },
     {
         id: 2,
         src: ct2,
-        title: "LOUNGEWEAR LOVE"
+        title: "SHIRT LOVE"
     },
     {
         id: 3,
         src: ct3,
-        title: "LIGHT JACKETS"
+        title: "JEWELLERY"
     },
 ]
 export default cate;

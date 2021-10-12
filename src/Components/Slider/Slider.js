@@ -3,7 +3,7 @@ import "../Slider/Slider.scss"
 import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import slideInfo from "../../SlideInfo"
-import Products from '../Products/Products';
+import { Link } from "react-scroll";
 
 export default function Slider() {
     const [index, setindex] = useState(0);
@@ -44,7 +44,10 @@ export default function Slider() {
                                     <div className="discription">
                                         <p>{item.disc}</p>
                                     </div>
-                                    <button><a href="/products/17">SHOP NOW</a></button></div>
+                                    <button>
+                                        <Link to="productsdiv" smooth={true} duration={1000} >SHOP NOW</Link>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
